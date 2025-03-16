@@ -4,16 +4,16 @@ import java.util.Scanner;
 
 public class MasterController {
 
-    private PatientController patientController = new PatientController(this);
-    private PhysiotherapistsController physioController = new PhysiotherapistsController(this);
-    private BookingController bookingController = new BookingController(this);
+    private final PatientController patientController = new PatientController(this);
+    private final PhysiotherapistsController physioController = new PhysiotherapistsController(this);
+    private final BookingController bookingController = new BookingController(this);
     public boolean exit = false;
 
     //public MasterController() {
     //}
 
     public void Head() {
-        System.out.println("");
+        System.out.println();
         System.out.println("+*******************************************+");
         System.out.println("|        Welcome to Boost Physio Clinic     |");
         System.out.println("|*******************************************|");
