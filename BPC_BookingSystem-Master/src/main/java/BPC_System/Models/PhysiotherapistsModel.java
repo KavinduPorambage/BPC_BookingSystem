@@ -3,7 +3,7 @@ package BPC_System.Models;
 import java.util.List;
 import java.util.Map;
 
-public class Physiotherapists {
+public class PhysiotherapistsModel {
 
     private int id;
     private String name;
@@ -11,10 +11,10 @@ public class Physiotherapists {
     private String phone;
     private Map<String, List<String>> expertiseArea;
 
-    public Physiotherapists() {
+    public PhysiotherapistsModel() {
     }
 
-    public Physiotherapists(int id, String name, String address, String phone, Map<String, List<String>> expertiseArea) {
+    public PhysiotherapistsModel(int id, String name, String address, String phone, Map<String, List<String>> expertiseArea) {
         this.id = id;
         this.name = name;
         this.address = address;

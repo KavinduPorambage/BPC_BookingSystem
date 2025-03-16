@@ -1,6 +1,6 @@
 package BPC_System.Models;
 
-public class Timetable {
+public class TimetableModel {
 
     private int id;
     private int physioId;
@@ -11,7 +11,7 @@ public class Timetable {
     private String expertiseArea;
     private String treatment;
 
-    public Timetable() {
+    public TimetableModel() {
     }
 
     public int getId() {

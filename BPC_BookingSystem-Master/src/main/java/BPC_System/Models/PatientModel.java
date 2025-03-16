@@ -1,13 +1,13 @@
 package BPC_System.Models;
 
-public class Patient {
+public class PatientModel {
 
     private int id;
     private String Name;
     private String address;
     private String phone;
 
-    public Patient(int id, String name, String address, String phone) {
+    public PatientModel(int id, String name, String address, String phone) {
         this.id = id;
         this.Name = name;
         this.address = address;
