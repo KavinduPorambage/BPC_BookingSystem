@@ -9,7 +9,14 @@ public class MasterController {
     private BookingController bookingController = new BookingController(this);
     public boolean exit = false;
 
-    public MasterController() {
+    //public MasterController() {
+    //}
+
+    public void Head() {
+        System.out.println("");
+        System.out.println("+*******************************************+");
+        System.out.println("|        Welcome to Boost Physio Clinic     |");
+        System.out.println("|*******************************************|");
     }
 
     public void MainStart() {
@@ -31,7 +38,7 @@ public class MasterController {
             System.out.println("  +---------------+-----------------------+");
             System.out.println("  |       7       |         Exit          |");
             System.out.println("  +---------------------------------------+");
-            System.out.print("Enter your choice: ");
+            System.out.print("\nEnter your choice: ");
 
             try {
                 int choice = (new Scanner(System.in)).nextInt();
@@ -55,24 +62,23 @@ public class MasterController {
                         this.bookingController.bookingstart();
                         break;
                     case 7:
-                        System.out.println("Exiting the program. Goodbye!");
+                        System.out.println("\nExiting the program.....");
+                        System.out.println("Goodbye!");
                         this.exit = true;
                         break;
                     default:
-                        System.out.println("Invalid choice. Please try again.");
+                        System.out.println("Invalid choice..... Please try again.");
+                        System.out.println("IPlease try again.");
+
                 }
             } catch (Exception e) {
                 System.out.println("An error occurred: " + e.getMessage());
-                System.out.println("Please enter a valid input.");
+                System.out.println("Please enter a valid input!");
             }
         }
 
     }
 
-    public void Head() {
-        System.out.println("+*******************************************+");
-        System.out.println("|        Welcome to Boost Physio Clinic     |");
-        System.out.println("|*******************************************|");
-    }
+
 
 }
