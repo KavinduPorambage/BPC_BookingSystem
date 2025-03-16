@@ -47,7 +47,7 @@ public class MasterController {
                         this.physioController.physiostart();
                         break;
                     case 2:
-                        this.patientController.patientstart();
+                        this.patientController.patientStart();
                         break;
                     case 3:
                         this.bookingController.bookingstart();
