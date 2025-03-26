@@ -12,7 +12,7 @@ import java.util.List;
 public class PhysiotherapistsHandler {
 
     // save
-    public static List<PhysiotherapistsModel> readPhysiosFromFile() {
+    public static List<PhysiotherapistsModel> readPhysiotherapistsJson() {
         File file = new File(FILE_PATH);
         if (!file.exists()) {
             return new ArrayList<>(); // Return empty list if file does not exist
@@ -30,7 +30,7 @@ public class PhysiotherapistsHandler {
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
     // Save
-    public static boolean savePhysiosToJson(List<PhysiotherapistsModel> physios) {
+    public static boolean savePhysiotherapistsJson(List<PhysiotherapistsModel> physios) {
         try {
             objectMapper.writeValue(new File(FILE_PATH), physios);
             return true;
