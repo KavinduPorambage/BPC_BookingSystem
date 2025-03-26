@@ -80,7 +80,7 @@ public class PatientController {
         if (!patients.isEmpty()) {
             System.out.println("\n Patients Details \n");
             System.out.println("--------------------------------------------------------------------------------------------------------");
-            System.out.printf("%-15s%-20s%-40s%-15s%n", "Patient ID", "Full Name", "Address", "Phone");
+            System.out.printf("%-15s%-20s%-40s%-15s%n", "Patient ID", "Patient Full Name", "Patient Address", "Patient Contact Number");
             System.out.println("--------------------------------------------------------------------------------------------------------");
             for (PatientModel patient : patients) {
                 System.out.printf("%-15s%-20s%-40s%-15s%n", patient.getId(), patient.getName(), patient.getAddress(), patient.getPhone());
