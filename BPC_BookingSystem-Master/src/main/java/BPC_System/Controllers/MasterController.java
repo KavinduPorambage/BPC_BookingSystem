@@ -21,23 +21,23 @@ public class MasterController {
 
     public void MainStart() {
         while(!this.exit) {
-            System.out.println("  +---------------------------------------+");
-            System.out.println("  |     Option    |     Description       |");
-            System.out.println("  +----------+----------------------------+");
-            System.out.println("  |       1       |    Manage Physios     |");
-            System.out.println("  +---------------+-----------------------+");
-            System.out.println("  |       2       |    Manage Patients    |");
-            System.out.println("  +---------------+-----------------------+");
-            System.out.println("  |       3       |  Book an Appointment  |");
-            System.out.println("  +---------------+-----------------------+");
-            System.out.println("  |       4       |    Attend a Booking   |");
-            System.out.println("  +---------------+-----------------------+");
-            System.out.println("  |       5       |    Change a Booking   |");
-            System.out.println("  +---------------+-----------------------+");
-            System.out.println("  |       6       |    Generate Reports   |");
-            System.out.println("  +---------------+-----------------------+");
-            System.out.println("  |       7       |         Exit          |");
-            System.out.println("  +---------------------------------------+");
+            System.out.println(" +-----------------------------------------+");
+            System.out.println(" |     Option    |       Description       |");
+            System.out.println(" +---------------+-------------------------+");
+            System.out.println(" |       1       | Manage Physiotherapists |");
+            System.out.println(" +---------------+-------------------------+");
+            System.out.println(" |       2       |     Manage Patients     |");
+            System.out.println(" +---------------+-------------------------+");
+            System.out.println(" |       3       |   Book an Appointment   |");
+            System.out.println(" +---------------+-------------------------+");
+            System.out.println(" |       4       |     Attend a Booking    |");
+            System.out.println(" +---------------+-------------------------+");
+            System.out.println(" |       5       |     Change a Booking    |");
+            System.out.println(" +---------------+-------------------------+");
+            System.out.println(" |       6       |     Generate Reports    |");
+            System.out.println(" +---------------+-------------------------+");
+            System.out.println(" |       7       |          Exit           |");
+            System.out.println(" +-----------------------------------------+");
             System.out.print("\nEnter your choice: ");
 
             try {
