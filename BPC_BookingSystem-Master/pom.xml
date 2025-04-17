@@ -38,7 +38,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>physiobookingsystem.PhysioBookingSystem</mainClass>
+                            <mainClass>BPC_System.BPC_System</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
