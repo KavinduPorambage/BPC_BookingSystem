@@ -32,7 +32,7 @@ public class MasterController {
             System.out.println(" +---------------+-------------------------+");
             System.out.println(" |       4       |     Attend a Booking    |");
             System.out.println(" +---------------+-------------------------+");
-            System.out.println(" |       5       |     Change a Booking    |");
+            System.out.println(" |       5       |     Cancel a Booking    |");
             System.out.println(" +---------------+-------------------------+");
             System.out.println(" |       6       |     Generate Reports    |");
             System.out.println(" +---------------+-------------------------+");
@@ -50,7 +50,7 @@ public class MasterController {
                         this.patientController.patientStart();
                         break;
                     case 3:
-                        this.bookingController.bookingstart();
+                        this.bookingController.bookingStart();
                         break;
                     case 4:
                         this.bookingController.attendBooking();
@@ -59,7 +59,7 @@ public class MasterController {
                         this.bookingController.cancelBooking();
                         break;
                     case 6:
-                        this.bookingController.bookingstart();
+                        this.bookingController.bookingStart();
                         break;
                     case 7:
                         System.out.println("\nExiting the program.....");
