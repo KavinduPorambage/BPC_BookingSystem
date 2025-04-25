@@ -38,7 +38,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>BPC_System.BPC_System</mainClass>
+                            <mainClass>BPC_System.MainBPC_System</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
