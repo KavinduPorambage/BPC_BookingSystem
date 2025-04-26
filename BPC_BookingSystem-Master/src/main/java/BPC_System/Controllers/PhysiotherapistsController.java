@@ -130,7 +130,7 @@ public class PhysiotherapistsController {
         }
     }
 
-    private int generatePhysiotherapiststId() {
+    public static int generatePhysiotherapiststId() {
         List<PhysiotherapistsModel> physios = PhysiotherapistsHandler.readPhysiotherapistsJson();
         int maxId = 0;
 

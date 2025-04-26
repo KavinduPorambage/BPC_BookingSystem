@@ -93,7 +93,7 @@ public class PatientController {
 
 
     // set a new ID to the newly added patient
-    private int generateNextPatientId() {
+    public static int generateNextPatientId() {
         ArrayList<PatientModel> patients = PatientHandler.readPatientsFromFile();
         int maxId = 0;
 
